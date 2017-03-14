@@ -32,5 +32,6 @@ class Context
     {
         echo PHP_EOL . 'Do something' . PHP_EOL;
         $this->logger->log(__FUNCTION__);
+        return true;
     }
 }

@@ -1,11 +1,11 @@
 <?php
 
-namespace DesignPatterns\Strategy;
+namespace DP\Strategy;
 
 
 /**
  * Class FileLogger
- * @package DesignPatterns\Strategy
+ * @package DP\Strategy
  */
 class FileLogger implements LoggerInterface
 {

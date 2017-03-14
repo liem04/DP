@@ -1,11 +1,11 @@
 <?php
 
-namespace DesignPatterns\Strategy;
+namespace DP\Strategy;
 
 
 /**
  * Class LoggerInterface
- * @package DesignPatterns\Strategy
+ * @package DP\Strategy
  */
 interface LoggerInterface
 {

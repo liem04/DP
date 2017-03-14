@@ -1,11 +1,11 @@
 <?php
 
-namespace DesignPatterns\Strategy;
+namespace DP\Strategy;
 
 
 /**
  * Class Context
- * @package DesignPatterns\Strategy
+ * @package DP\Strategy
  */
 class Context
 {

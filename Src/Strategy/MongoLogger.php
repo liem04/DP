@@ -1,12 +1,12 @@
 <?php
 
 
-namespace DesignPatterns\Strategy;
+namespace DP\Strategy;
 
 
 /**
  * Class MongoLogger
- * @package DesignPatterns\Strategy
+ * @package DP\Strategy
  */
 class MongoLogger implements LoggerInterface
 {

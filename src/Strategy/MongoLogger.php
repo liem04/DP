@@ -16,6 +16,6 @@ class MongoLogger implements LoggerInterface
      */
     public function log(string $message)
     {
-        echo 'Logged to mongo: ' . $message;
+        echo 'Logged to mongo: ' . $message . PHP_EOL;
     }
 }

@@ -15,6 +15,6 @@ class FileLogger implements LoggerInterface
      */
     public function log(string $message)
     {
-        echo 'Logged to file: ' . $message;
+        echo 'Logged to file: ' . $message . PHP_EOL;
     }
 }

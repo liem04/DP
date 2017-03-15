@@ -24,13 +24,12 @@ class Context
         $this->logger = $logger;
     }
 
-
     /**
      *
      */
     public function doDoSomething()
     {
-        echo PHP_EOL . 'Do something' . PHP_EOL;
+        echo PHP_EOL . 'Strategy Context do something' . PHP_EOL;
         $this->logger->log(__FUNCTION__);
         return true;
     }

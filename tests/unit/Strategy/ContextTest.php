@@ -16,6 +16,6 @@ class ContextTest extends \PHPUnit_Framework_TestCase
         $logger->method('log')->willReturn('');
 
         $context = new Context($logger);
-        static::assertTrue($context->doDoSomething());
+        static::assertTrue($context->doSomething());
     }
 }

@@ -27,7 +27,7 @@ class Context
     /**
      *
      */
-    public function doDoSomething()
+    public function doSomething()
     {
         echo PHP_EOL . 'Strategy Context do something' . PHP_EOL;
         $this->logger->log(__FUNCTION__);

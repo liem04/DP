@@ -1,12 +1,20 @@
 <?php
+use DP\Decorator\TestDecorator;
+use DP\Factory\SimpleFactory\TestSimpleFactory;
+use DP\Singleton\TestSingleton;
+use DP\Strategy\TestStrategy;
+
 require_once __DIR__ . '/vendor/autoload.php';
 
 
-$testStrategy = new \DP\Strategy\TestStrategy();
+$testStrategy = new TestStrategy();
 $testStrategy->test();
 
-$testSingleton = new \DP\Singleton\TestSingleton();
+$testSingleton = new TestSingleton();
 $testSingleton->test();
 
-$testSimpleFactory = new \DP\Factory\SimpleFactory\TestSimpleFactory();
+$testSimpleFactory = new TestSimpleFactory();
 $testSimpleFactory->test();
+
+$testDecorator = new TestDecorator();
+$testDecorator->test();
